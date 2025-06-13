@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="author" content="김센텀">
     <meta name="keywords" content="포트폴리오, html, css, 영상">
-    <meta name="description" name="안녕하세요. 디자인 영상 전문입니다...">
+    <meta name="description" name="안녕하세요. 디자인 영상 전문입니다..............">
     <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -32,18 +32,34 @@
 
 
                     <div id="navbarNav" class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a href="#" 
                             class="nav-link">Home</a></li>
                             <li class="nav-item"><a href="About" 
                             class="nav-link">About</a></li>
                             <li class="nav-item"><a href="#resum" 
                             class="nav-link">Resum</a></li>
-                            <li class="nav-item"><a href="#portfolio" 
-                            class="nav-link">Portfolio</a></li>
+                            <li class="nav-item dropdown"><a href="#portfolio" 
+                            class="nav-link dropdown-toggle" data-bs-toggle="dropdown" 
+                            id="navbardropdown" role="button" 
+                            aria-expanded="false">Portfolio</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbardropdown">
+                                    <li><a class="dropdown-item" href="">디자인</a></li>
+                                    <li><a class="dropdown-item" href="">영 상</a></li>
+                                    <li><a class="dropdown-item" href="">피그마</a></li>
+                                    <li><a class="dropdown-item" href="">WEB</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="">디자인</a></li>
+                                </ul>
+                            </li>
                             <li class="nav-item"><a href="#contact" 
                             class="nav-link">Contact</a></li>
                         </ul>
+                        <form class="d-flex">
+                            <input type="search" class="form-control me-3"
+                            placeholder="검색하세요......." aria-label="Search">
+                            <button type="submit" class="btn btn-outline-success">Search</button>
+                        </form>
                     </div>
             </div>
 
